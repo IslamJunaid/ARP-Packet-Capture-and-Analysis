@@ -1,5 +1,5 @@
 # ARP-Packet-Capture-and-Analysis
-Performs byte-level programming to reach each byte and convert it to the ARP header element.
+Performs byte-level programming to read each byte and convert it to the ARP header element.
 Program Logic:
 My program first opens my PCAP file and unpacks it into data. I then check if the data is an actual response 
 and request by filtering out the broadcasts with my if statements. After I find my request I store the data into
